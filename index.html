@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Mi proyecto integrador</title>
+<link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+    <script>
+        var imagenVisible = false;
+        
+        function mostrarImagen() {
+        var imagen = document.getElementById("imagen");
+        
+        if (imagenVisible) {
+            imagen.style.display = "none";
+            imagenVisible = false;
+        } else {
+            imagen.style.display = "block";
+            imagenVisible = true;
+        }
+        }
+        </script>
+<!-- Sección 1 -->
+<div class="seccion-1">
+    <p><h1 >Mi proyecto integrador</h1></p>
+</div>
+<br>
+
+<!-- Sección 2 -->
+<div class="seccion-2">
+    <table border='1'>
+    <th>
+    <p>En la industria musical, el monitoreo es un proceso fundamental para medir y analizar el rendimiento de una canción o artista en diferentes medios. Esto puede hacerse para una variedad de propósitos, como evaluar el éxito de un lanzamiento, identificar oportunidades de marketing o mejorar el posicionamiento de un artista en la industria.</p>
+    <p>En la actualidad, el monitoreo musical se realiza manualmente o a través de herramientas de terceros. Las herramientas de terceros ofrecen una variedad de características, pero suelen ser costosas y requieren un mantenimiento constante. Además, las herramientas de terceros a menudo se limitan a una sola fuente de datos, lo que puede limitar su precisión.</p>
+    </th>
+    <table border='1'></table>
+    <ul>
+    <li>Se trata de un proyecto web que permite a los usuarios gestionar sus tareas de forma sencilla.</li>
+    <li>Parámetros de rendimiento: tenemos en mente es tomar esa informacion de todos los medios. </li>
+    <li>Visualización de datos: todavia los estamos diciendo que salgan segun las canciones. </li>
+    <li>Facilidad de uso: El sistema debe ser fácil de usar para los artistas y las empresas discográficas.</li>
+    <li>Precisión: El sistema debe ser preciso en sus análisis.</li>
+    <li>Flexibilidad: El sistema debe ser flexible para adaptarse a las necesidades cambiantes de los artistas y las empresas discográficas.</li>
+</ul>
+</div>
+<br>
+
+<!-- Sección 3 -->
+<button onclick="mostrarImagen()">Mostrar imagen</button>
+<img src="imagenes/proyecto.png" alt="Imagen de mi proyecto" id="imagen">
+<div id="mensaje1" class="mensaje">
+</div>
+<div class="seccion-3">
+    <p>Mejora la eficiencia: El sistema puede ayudar a los artistas y las empresas discográficas a gestionar sus tareas de forma más eficiente. Esto puede liberar tiempo para que se centren en la creación de música y la promoción de sus carreras.
+        <br>
+        Reduce los costos: El sistema puede ayudar a los artistas y las empresas discográficas a reducir sus costos. Esto se puede lograr automatizando tareas, eliminando la necesidad de software o servicios costosos y mejorando la eficiencia.</p>
+    <p>
+        Mejora la toma de decisiones: El sistema puede ayudar a los artistas y las empresas discográficas a tomar mejores decisiones. Esto se puede lograr proporcionando datos e información relevantes para ayudar a los usuarios a tomar decisiones informadas.
+        <br>
+        Mejora la comunicación: El sistema puede ayudar a los artistas y las empresas discográficas a comunicarse mejor entre sí. Esto puede mejorar la coordinación y la colaboración, lo que puede conducir a resultados más exitosos.
+    </p>
+    <br>
+    <p>Mejora el cumplimiento: El sistema puede ayudar a los artistas y las empresas discográficas a cumplir con las regulaciones. Esto puede ayudar a evitar multas y sanciones, y puede proteger la reputación de las partes interesadas.</p>
+    <p>Artistas: El sistema puede ayudar a los artistas a organizar su música, gestionar su calendario, promocionar sus carreras y comunicarse con sus fans.<br>
+        Empresas discográficas: El sistema puede ayudar a las empresas discográficas a administrar sus catálogos de música, gestionar sus relaciones con los artistas, rastrear las ventas y monetizar su contenido.</p>
+</div>
+
+</body>
+</html>
