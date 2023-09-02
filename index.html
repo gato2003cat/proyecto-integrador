@@ -7,7 +7,7 @@
 </head>
 <body>
     <script>
-        var imagenVisible = false;
+        var imagenVisible = true;
         
         function mostrarImagen() {
         var imagen = document.getElementById("imagen");
@@ -21,13 +21,13 @@
         }
         }
         </script>
-<!-- Sección 1 -->
+
 <div class="seccion-1">
     <p><h1 >Mi proyecto integrador</h1></p>
 </div>
 <br>
 
-<!-- Sección 2 -->
+
 <div class="seccion-2">
     <table border='1'>
     <th>
@@ -40,16 +40,17 @@
     <li>Parámetros de rendimiento: tenemos en mente es tomar esa informacion de todos los medios. </li>
     <li>Visualización de datos: todavia los estamos diciendo que salgan segun las canciones. </li>
     <li>Facilidad de uso: El sistema debe ser fácil de usar para los artistas y las empresas discográficas.</li>
-    <li>Precisión: El sistema debe ser preciso en sus análisis.</li>
+    <li>Precision: El sistema debe ser preciso en sus análisis.</li>
     <li>Flexibilidad: El sistema debe ser flexible para adaptarse a las necesidades cambiantes de los artistas y las empresas discográficas.</li>
 </ul>
 </div>
 <br>
 
-<!-- Sección 3 -->
+
 <button onclick="mostrarImagen()">Mostrar imagen</button>
-<img src="imagenes/proyecto.png" alt="Imagen de mi proyecto" id="imagen">
-<div id="mensaje1" class="mensaje">
+<img src="imagenes/proyecto.png" alt="Imagen de mi proyecto" id="imagen" hidden>
+<div id="imagen" class="imagen1">
+</div>
 </div>
 <div class="seccion-3">
     <p>Mejora la eficiencia: El sistema puede ayudar a los artistas y las empresas discográficas a gestionar sus tareas de forma más eficiente. Esto puede liberar tiempo para que se centren en la creación de música y la promoción de sus carreras.
@@ -65,6 +66,5 @@
     <p>Artistas: El sistema puede ayudar a los artistas a organizar su música, gestionar su calendario, promocionar sus carreras y comunicarse con sus fans.<br>
         Empresas discográficas: El sistema puede ayudar a las empresas discográficas a administrar sus catálogos de música, gestionar sus relaciones con los artistas, rastrear las ventas y monetizar su contenido.</p>
 </div>
-
 </body>
 </html>
